@@ -15,7 +15,7 @@ let package = Package(
 
         .binaryTarget(
             name: "DaonCryptoSDK",
-            url: "https://github.com/jonnymortensen/sdk-crypto/DaonCryptoSDK.xcframework.zip",
+            url: "https://github.com/jonnymortensen/sdk-crypto/blob/717b3f2a17434abc3439c7777e5363cba4502a9a/DaonCryptoSDK.xcframework.zip",
             checksum: "fa9c997409a7ed67119644fabfe48d4425e4173c405ba1d0018806b5b0c58944")
         ]
 )
