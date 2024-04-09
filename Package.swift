@@ -16,8 +16,8 @@ let package = Package(
         .binaryTarget(
             name: "DaonCryptoSDK",
             // url: "https://nexus.identityx-build.com/repository/sdk-packages/crypto/DaonCryptoSDK-1.0.0.xcframework.zip",
-            url: "https://github.com/jonnymortensen/sdk-crypto/releases/download/1.0.4/DaonCryptoSDK-1.0.4.xcframework.zip",
-            checksum: "8ccd691fee4069a0114d83ed68060cfdce296e4b64da55c67103d0b3e40ee25a")
+            url: "https://github.com/jonnymortensen/sdk-crypto/releases/download/1.0.5/DaonCryptoSDK.xcframework.zip",
+            checksum: "ffc30d691cff68c5de803b6ff66c6d0bd57daf129abb025f45aaaa7bfbc64bbc")
         ]
 )
 //let package = Package(
