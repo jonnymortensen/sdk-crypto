@@ -6,9 +6,12 @@ let package = Package(
     products: [
         .library(
             name: "DaonCryptoPackage",
-            targets: ["DaonCryptoSDK"]),
+            targets: ["DaonCryptoPackage", "DaonCryptoSDK"]),
     ],
     targets: [
+        .target(
+            name: "DaonCryptoPackage"
+        ),
         .package(
             name: "DaonCryptoSDK",
             path: "DaonCryptoSDK-1.0.6.xcframework"
