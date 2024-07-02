@@ -1,0 +1,376 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/jmortensen/Library/Developer/Xcode/DerivedData/DaonCryptoSDK-adljgiusakkhvyhgbprnzcpsvjbz/Build/Intermediates.noindex/ArchiveIntermediates/DaonCryptoSDK-Simulator/InstallationBuildProductsLocation/Library/Frameworks/DaonCryptoSDK.framework/DaonCryptoSDK'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x74ADF, size: 0x8, addend: 0x0, symName: _DaonCryptoSDKVersionString, symObjAddr: 0x0, symBinAddr: 0xF6750, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x74B14, size: 0x8, addend: 0x0, symName: _DaonCryptoSDKVersionNumber, symObjAddr: 0x38, symBinAddr: 0xF6788, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x74B51, size: 0x8, addend: 0x0, symName: '-[IXHOTP initWithLength:step:algorithm:]', symObjAddr: 0x0, symBinAddr: 0x17E8, symSize: 0x55 }
+  - { offsetInCU: 0xA7, offset: 0x74BD1, size: 0x8, addend: 0x0, symName: '-[IXHOTP initWithLength:step:algorithm:]', symObjAddr: 0x0, symBinAddr: 0x17E8, symSize: 0x55 }
+  - { offsetInCU: 0x10E, offset: 0x74C38, size: 0x8, addend: 0x0, symName: '-[IXHOTP generateWithSecret:]', symObjAddr: 0x55, symBinAddr: 0x183D, symSize: 0x97 }
+  - { offsetInCU: 0x19D, offset: 0x74CC7, size: 0x8, addend: 0x0, symName: '-[IXHOTP generateWithSecret:time:]', symObjAddr: 0xEC, symBinAddr: 0x18D4, symSize: 0x1DE }
+  - { offsetInCU: 0x33E, offset: 0x74E68, size: 0x8, addend: 0x0, symName: '-[IXHOTP timeToLive]', symObjAddr: 0x2CA, symBinAddr: 0x1AB2, symSize: 0x95 }
+  - { offsetInCU: 0x3B9, offset: 0x74EE3, size: 0x8, addend: 0x0, symName: '-[IXHOTP hmacWithSecret:data:algorithm:]', symObjAddr: 0x35F, symBinAddr: 0x1B47, symSize: 0x164 }
+  - { offsetInCU: 0x27, offset: 0x7510D, size: 0x8, addend: 0x0, symName: '+[IXADeviceInfo platform]', symObjAddr: 0x0, symBinAddr: 0x1CAB, symSize: 0x81 }
+  - { offsetInCU: 0x8B, offset: 0x75171, size: 0x8, addend: 0x0, symName: '+[IXADeviceInfo platform]', symObjAddr: 0x0, symBinAddr: 0x1CAB, symSize: 0x81 }
+  - { offsetInCU: 0x145, offset: 0x7522B, size: 0x8, addend: 0x0, symName: '+[IXADeviceInfo state]', symObjAddr: 0x81, symBinAddr: 0x1D2C, symSize: 0x9B }
+  - { offsetInCU: 0x1B8, offset: 0x7529E, size: 0x8, addend: 0x0, symName: '+[IXADeviceInfo isEmulator]', symObjAddr: 0x11C, symBinAddr: 0x1DC7, symSize: 0x4B }
+  - { offsetInCU: 0x213, offset: 0x752F9, size: 0x8, addend: 0x0, symName: '+[IXADeviceInfo hasEnclave]', symObjAddr: 0x167, symBinAddr: 0x1E12, symSize: 0x1A1 }
+  - { offsetInCU: 0x3A3, offset: 0x75489, size: 0x8, addend: 0x0, symName: '+[IXADeviceInfo model]', symObjAddr: 0x308, symBinAddr: 0x1FB3, symSize: 0xC54 }
+  - { offsetInCU: 0x88A, offset: 0x75970, size: 0x8, addend: 0x0, symName: '+[IXADeviceInfo isBeingDebugged]', symObjAddr: 0xF5C, symBinAddr: 0x2C07, symSize: 0xBA }
+  - { offsetInCU: 0x96B, offset: 0x75A51, size: 0x8, addend: 0x0, symName: '+[IXADeviceInfo isBeingDebugged].cold.1', symObjAddr: 0x1386, symBinAddr: 0xF5ACD, symSize: 0x23 }
+  - { offsetInCU: 0x983, offset: 0x75A69, size: 0x8, addend: 0x0, symName: '+[IXADeviceInfo isSecure]', symObjAddr: 0x1016, symBinAddr: 0x2CC1, symSize: 0x370 }
+  - { offsetInCU: 0x27, offset: 0x75D67, size: 0x8, addend: 0x0, symName: '-[BerTlv init:array:]', symObjAddr: 0x0, symBinAddr: 0x3031, symSize: 0xB6 }
+  - { offsetInCU: 0x104, offset: 0x75E44, size: 0x8, addend: 0x0, symName: '-[BerTlv init:array:]', symObjAddr: 0x0, symBinAddr: 0x3031, symSize: 0xB6 }
+  - { offsetInCU: 0x197, offset: 0x75ED7, size: 0x8, addend: 0x0, symName: '-[BerTlv init:value:]', symObjAddr: 0xB6, symBinAddr: 0x30E7, symSize: 0xB6 }
+  - { offsetInCU: 0x22A, offset: 0x75F6A, size: 0x8, addend: 0x0, symName: '-[BerTlv hasTag:]', symObjAddr: 0x16C, symBinAddr: 0x319D, symSize: 0x33 }
+  - { offsetInCU: 0x289, offset: 0x75FC9, size: 0x8, addend: 0x0, symName: '-[BerTlv find:]', symObjAddr: 0x19F, symBinAddr: 0x31D0, symSize: 0x1B7 }
+  - { offsetInCU: 0x382, offset: 0x760C2, size: 0x8, addend: 0x0, symName: '-[BerTlv findAll:]', symObjAddr: 0x356, symBinAddr: 0x3387, symSize: 0x210 }
+  - { offsetInCU: 0x49B, offset: 0x761DB, size: 0x8, addend: 0x0, symName: '-[BerTlv hexValue]', symObjAddr: 0x566, symBinAddr: 0x3597, symSize: 0x36 }
+  - { offsetInCU: 0x4EA, offset: 0x7622A, size: 0x8, addend: 0x0, symName: '-[BerTlv textValue]', symObjAddr: 0x59C, symBinAddr: 0x35CD, symSize: 0x6E }
+  - { offsetInCU: 0x545, offset: 0x76285, size: 0x8, addend: 0x0, symName: '-[BerTlv checkPrimitive]', symObjAddr: 0x60A, symBinAddr: 0x363B, symSize: 0x93 }
+  - { offsetInCU: 0x59C, offset: 0x762DC, size: 0x8, addend: 0x0, symName: '-[BerTlv dump:]', symObjAddr: 0x69D, symBinAddr: 0x36CE, symSize: 0x33B }
+  - { offsetInCU: 0x75D, offset: 0x7649D, size: 0x8, addend: 0x0, symName: '-[BerTlv dictionary]', symObjAddr: 0x9D8, symBinAddr: 0x3A09, symSize: 0x3A9 }
+  - { offsetInCU: 0x8FA, offset: 0x7663A, size: 0x8, addend: 0x0, symName: '-[BerTlv tag]', symObjAddr: 0xD81, symBinAddr: 0x3DB2, symSize: 0xA }
+  - { offsetInCU: 0x92F, offset: 0x7666F, size: 0x8, addend: 0x0, symName: '-[BerTlv value]', symObjAddr: 0xD8B, symBinAddr: 0x3DBC, symSize: 0xA }
+  - { offsetInCU: 0x964, offset: 0x766A4, size: 0x8, addend: 0x0, symName: '-[BerTlv list]', symObjAddr: 0xD95, symBinAddr: 0x3DC6, symSize: 0xA }
+  - { offsetInCU: 0x999, offset: 0x766D9, size: 0x8, addend: 0x0, symName: '-[BerTlv primitive]', symObjAddr: 0xD9F, symBinAddr: 0x3DD0, symSize: 0x9 }
+  - { offsetInCU: 0x9CE, offset: 0x7670E, size: 0x8, addend: 0x0, symName: '-[BerTlv constructed]', symObjAddr: 0xDA8, symBinAddr: 0x3DD9, symSize: 0x9 }
+  - { offsetInCU: 0xA03, offset: 0x76743, size: 0x8, addend: 0x0, symName: '-[BerTlv .cxx_destruct]', symObjAddr: 0xDB1, symBinAddr: 0x3DE2, symSize: 0x33 }
+  - { offsetInCU: 0x27, offset: 0x767FC, size: 0x8, addend: 0x0, symName: _ecc_make_key, symObjAddr: 0x0, symBinAddr: 0x3E18, symSize: 0x1CC }
+  - { offsetInCU: 0x42, offset: 0x76817, size: 0x8, addend: 0x0, symName: _Curve_p_128, symObjAddr: 0x5500, symBinAddr: 0x166BB0, symSize: 0x0 }
+  - { offsetInCU: 0x73, offset: 0x76848, size: 0x8, addend: 0x0, symName: _Curve_b_128, symObjAddr: 0x5510, symBinAddr: 0x166BC0, symSize: 0x0 }
+  - { offsetInCU: 0x8A, offset: 0x7685F, size: 0x8, addend: 0x0, symName: _Curve_Gx_128, symObjAddr: 0x5520, symBinAddr: 0x166BD0, symSize: 0x0 }
+  - { offsetInCU: 0xA1, offset: 0x76876, size: 0x8, addend: 0x0, symName: _Curve_Gy_128, symObjAddr: 0x5530, symBinAddr: 0x166BE0, symSize: 0x0 }
+  - { offsetInCU: 0xB8, offset: 0x7688D, size: 0x8, addend: 0x0, symName: _Curve_n_128, symObjAddr: 0x5540, symBinAddr: 0x166BF0, symSize: 0x0 }
+  - { offsetInCU: 0xCF, offset: 0x768A4, size: 0x8, addend: 0x0, symName: _Curve_p_192, symObjAddr: 0x5550, symBinAddr: 0x166C00, symSize: 0x0 }
+  - { offsetInCU: 0xF2, offset: 0x768C7, size: 0x8, addend: 0x0, symName: _Curve_b_192, symObjAddr: 0x5570, symBinAddr: 0x166C20, symSize: 0x0 }
+  - { offsetInCU: 0x109, offset: 0x768DE, size: 0x8, addend: 0x0, symName: _Curve_Gx_192, symObjAddr: 0x5590, symBinAddr: 0x166C40, symSize: 0x0 }
+  - { offsetInCU: 0x120, offset: 0x768F5, size: 0x8, addend: 0x0, symName: _Curve_Gy_192, symObjAddr: 0x55B0, symBinAddr: 0x166C60, symSize: 0x0 }
+  - { offsetInCU: 0x137, offset: 0x7690C, size: 0x8, addend: 0x0, symName: _Curve_n_192, symObjAddr: 0x55D0, symBinAddr: 0x166C80, symSize: 0x0 }
+  - { offsetInCU: 0x14E, offset: 0x76923, size: 0x8, addend: 0x0, symName: _Curve_p_256, symObjAddr: 0x55F0, symBinAddr: 0x166CA0, symSize: 0x0 }
+  - { offsetInCU: 0x171, offset: 0x76946, size: 0x8, addend: 0x0, symName: _Curve_b_256, symObjAddr: 0x5610, symBinAddr: 0x166CC0, symSize: 0x0 }
+  - { offsetInCU: 0x188, offset: 0x7695D, size: 0x8, addend: 0x0, symName: _Curve_Gx_256, symObjAddr: 0x5630, symBinAddr: 0x166CE0, symSize: 0x0 }
+  - { offsetInCU: 0x19F, offset: 0x76974, size: 0x8, addend: 0x0, symName: _Curve_Gy_256, symObjAddr: 0x5650, symBinAddr: 0x166D00, symSize: 0x0 }
+  - { offsetInCU: 0x1B6, offset: 0x7698B, size: 0x8, addend: 0x0, symName: _Curve_n_256, symObjAddr: 0x5670, symBinAddr: 0x166D20, symSize: 0x0 }
+  - { offsetInCU: 0x1CD, offset: 0x769A2, size: 0x8, addend: 0x0, symName: _Curve_p_384, symObjAddr: 0x5690, symBinAddr: 0x166D40, symSize: 0x0 }
+  - { offsetInCU: 0x1F0, offset: 0x769C5, size: 0x8, addend: 0x0, symName: _Curve_b_384, symObjAddr: 0x56C0, symBinAddr: 0x166D70, symSize: 0x0 }
+  - { offsetInCU: 0x207, offset: 0x769DC, size: 0x8, addend: 0x0, symName: _Curve_Gx_384, symObjAddr: 0x56F0, symBinAddr: 0x166DA0, symSize: 0x0 }
+  - { offsetInCU: 0x21E, offset: 0x769F3, size: 0x8, addend: 0x0, symName: _Curve_Gy_384, symObjAddr: 0x5720, symBinAddr: 0x166DD0, symSize: 0x0 }
+  - { offsetInCU: 0x235, offset: 0x76A0A, size: 0x8, addend: 0x0, symName: _Curve_n_384, symObjAddr: 0x5750, symBinAddr: 0x166E00, symSize: 0x0 }
+  - { offsetInCU: 0x4BE, offset: 0x76C93, size: 0x8, addend: 0x0, symName: _ecc_make_key, symObjAddr: 0x0, symBinAddr: 0x3E18, symSize: 0x1CC }
+  - { offsetInCU: 0x705, offset: 0x76EDA, size: 0x8, addend: 0x0, symName: _vli_numBits, symObjAddr: 0x48D, symBinAddr: 0x42A5, symSize: 0x53 }
+  - { offsetInCU: 0x79E, offset: 0x76F73, size: 0x8, addend: 0x0, symName: _EccPoint_mult, symObjAddr: 0x1CC, symBinAddr: 0x3FE4, symSize: 0x2C1 }
+  - { offsetInCU: 0xA9C, offset: 0x77271, size: 0x8, addend: 0x0, symName: _ecc_native2bytes, symObjAddr: 0x4E0, symBinAddr: 0x42F8, symSize: 0x71 }
+  - { offsetInCU: 0xB70, offset: 0x77345, size: 0x8, addend: 0x0, symName: _XYcZ_initial_double, symObjAddr: 0x375E, symBinAddr: 0x7576, symSize: 0x11C }
+  - { offsetInCU: 0xCDA, offset: 0x774AF, size: 0x8, addend: 0x0, symName: _XYcZ_addC, symObjAddr: 0x387A, symBinAddr: 0x7692, symSize: 0x244 }
+  - { offsetInCU: 0xEFE, offset: 0x776D3, size: 0x8, addend: 0x0, symName: _XYcZ_add, symObjAddr: 0x1B03, symBinAddr: 0x591B, symSize: 0x199 }
+  - { offsetInCU: 0x108C, offset: 0x77861, size: 0x8, addend: 0x0, symName: _vli_modSub, symObjAddr: 0x1A93, symBinAddr: 0x58AB, symSize: 0x70 }
+  - { offsetInCU: 0x11AC, offset: 0x77981, size: 0x8, addend: 0x0, symName: _vli_modMult_fast, symObjAddr: 0x202B, symBinAddr: 0x5E43, symSize: 0x72 }
+  - { offsetInCU: 0x1250, offset: 0x77A25, size: 0x8, addend: 0x0, symName: _vli_modInv, symObjAddr: 0xDC1, symBinAddr: 0x4BD9, symSize: 0x56C }
+  - { offsetInCU: 0x1988, offset: 0x7815D, size: 0x8, addend: 0x0, symName: _apply_z, symObjAddr: 0x1C9C, symBinAddr: 0x5AB4, symSize: 0xB7 }
+  - { offsetInCU: 0x1A7E, offset: 0x78253, size: 0x8, addend: 0x0, symName: _ecdh_shared_secret, symObjAddr: 0x551, symBinAddr: 0x4369, symSize: 0x191 }
+  - { offsetInCU: 0x1CC4, offset: 0x78499, size: 0x8, addend: 0x0, symName: _ecc_point_decompress, symObjAddr: 0x6E2, symBinAddr: 0x44FA, symSize: 0x155 }
+  - { offsetInCU: 0x1E35, offset: 0x7860A, size: 0x8, addend: 0x0, symName: _ecc_bytes2native, symObjAddr: 0x837, symBinAddr: 0x464F, symSize: 0x2E }
+  - { offsetInCU: 0x1F10, offset: 0x786E5, size: 0x8, addend: 0x0, symName: _vli_modSquare_fast, symObjAddr: 0x3ABE, symBinAddr: 0x78D6, symSize: 0x187 }
+  - { offsetInCU: 0x20B7, offset: 0x7888C, size: 0x8, addend: 0x0, symName: _vli_modAdd, symObjAddr: 0x132D, symBinAddr: 0x5145, symSize: 0x8B }
+  - { offsetInCU: 0x21F8, offset: 0x789CD, size: 0x8, addend: 0x0, symName: _mod_sqrt, symObjAddr: 0x4781, symBinAddr: 0x8599, symSize: 0x161 }
+  - { offsetInCU: 0x240B, offset: 0x78BE0, size: 0x8, addend: 0x0, symName: _ecdsa_sign, symObjAddr: 0x865, symBinAddr: 0x467D, symSize: 0x3AF }
+  - { offsetInCU: 0x282D, offset: 0x79002, size: 0x8, addend: 0x0, symName: _vli_modMult, symObjAddr: 0xC14, symBinAddr: 0x4A2C, symSize: 0x1AD }
+  - { offsetInCU: 0x2B82, offset: 0x79357, size: 0x8, addend: 0x0, symName: _vli_mult, symObjAddr: 0x48E2, symBinAddr: 0x86FA, symSize: 0x125 }
+  - { offsetInCU: 0x2E28, offset: 0x795FD, size: 0x8, addend: 0x0, symName: _ecdsa_verify, symObjAddr: 0x13B8, symBinAddr: 0x51D0, symSize: 0x6DB }
+  - { offsetInCU: 0x3829, offset: 0x79FFE, size: 0x8, addend: 0x0, symName: _EccPoint_double_jacobian, symObjAddr: 0x1D53, symBinAddr: 0x5B6B, symSize: 0x2D8 }
+  - { offsetInCU: 0x3B7D, offset: 0x7A352, size: 0x8, addend: 0x0, symName: _vli_mmod_fast, symObjAddr: 0x3C45, symBinAddr: 0x7A5D, symSize: 0x853 }
+  - { offsetInCU: 0x45A2, offset: 0x7AD77, size: 0x8, addend: 0x0, symName: '+[GMEllipticCurveCrypto generateKeyPairForCurve:]', symObjAddr: 0x209D, symBinAddr: 0x5EB5, symSize: 0x40 }
+  - { offsetInCU: 0x4614, offset: 0x7ADE9, size: 0x8, addend: 0x0, symName: '+[GMEllipticCurveCrypto curveForKey:]', symObjAddr: 0x20DD, symBinAddr: 0x5EF5, symSize: 0xA6 }
+  - { offsetInCU: 0x46AB, offset: 0x7AE80, size: 0x8, addend: 0x0, symName: '+[GMEllipticCurveCrypto curveForKeyBase64:]', symObjAddr: 0x2183, symBinAddr: 0x5F9B, symSize: 0x7E }
+  - { offsetInCU: 0x4730, offset: 0x7AF05, size: 0x8, addend: 0x0, symName: '+[GMEllipticCurveCrypto cryptoForKey:]', symObjAddr: 0x2201, symBinAddr: 0x6019, symSize: 0x9C }
+  - { offsetInCU: 0x47E3, offset: 0x7AFB8, size: 0x8, addend: 0x0, symName: '+[GMEllipticCurveCrypto cryptoForKeyBase64:]', symObjAddr: 0x229D, symBinAddr: 0x60B5, symSize: 0x8C }
+  - { offsetInCU: 0x4868, offset: 0x7B03D, size: 0x8, addend: 0x0, symName: '+[GMEllipticCurveCrypto cryptoForCurve:]', symObjAddr: 0x2329, symBinAddr: 0x6141, symSize: 0x2D }
+  - { offsetInCU: 0x48BD, offset: 0x7B092, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto initWithCurve:]', symObjAddr: 0x2356, symBinAddr: 0x616E, symSize: 0x1CA }
+  - { offsetInCU: 0x492A, offset: 0x7B0FF, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto generateNewKeyPair]', symObjAddr: 0x2520, symBinAddr: 0x6338, symSize: 0x102 }
+  - { offsetInCU: 0x49EF, offset: 0x7B1C4, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto sharedSecretForPublicKey:]', symObjAddr: 0x2622, symBinAddr: 0x643A, symSize: 0x216 }
+  - { offsetInCU: 0x4B58, offset: 0x7B32D, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto sharedSecretForPublicKeyBase64:]', symObjAddr: 0x2838, symBinAddr: 0x6650, symSize: 0x8C }
+  - { offsetInCU: 0x4BDD, offset: 0x7B3B2, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto signatureForHash:]', symObjAddr: 0x28C4, symBinAddr: 0x66DC, symSize: 0x200 }
+  - { offsetInCU: 0x4D2E, offset: 0x7B503, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto verifySignature:forHash:]', symObjAddr: 0x2AC4, symBinAddr: 0x68DC, symSize: 0x258 }
+  - { offsetInCU: 0x4EB7, offset: 0x7B68C, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto hashLength]', symObjAddr: 0x2D1C, symBinAddr: 0x6B34, symSize: 0x9 }
+  - { offsetInCU: 0x4EED, offset: 0x7B6C2, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto sharedSecretLength]', symObjAddr: 0x2D25, symBinAddr: 0x6B3D, symSize: 0x9 }
+  - { offsetInCU: 0x4F23, offset: 0x7B6F8, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto signatureLength]', symObjAddr: 0x2D2E, symBinAddr: 0x6B46, symSize: 0xB }
+  - { offsetInCU: 0x4F59, offset: 0x7B72E, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto publicKeyForPrivateKey:]', symObjAddr: 0x2D39, symBinAddr: 0x6B51, symSize: 0x1D8 }
+  - { offsetInCU: 0x50C9, offset: 0x7B89E, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto compressPublicKey:]', symObjAddr: 0x2F11, symBinAddr: 0x6D29, symSize: 0x1C2 }
+  - { offsetInCU: 0x5212, offset: 0x7B9E7, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto decompressPublicKey:]', symObjAddr: 0x30D3, symBinAddr: 0x6EEB, symSize: 0x1C4 }
+  - { offsetInCU: 0x5367, offset: 0x7BB3C, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto privateKeyBase64]', symObjAddr: 0x3297, symBinAddr: 0x70AF, symSize: 0x18 }
+  - { offsetInCU: 0x53AB, offset: 0x7BB80, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto setPrivateKey:]', symObjAddr: 0x32AF, symBinAddr: 0x70C7, symSize: 0x110 }
+  - { offsetInCU: 0x5486, offset: 0x7BC5B, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto setPrivateKeyBase64:]', symObjAddr: 0x33BF, symBinAddr: 0x71D7, symSize: 0x7B }
+  - { offsetInCU: 0x5507, offset: 0x7BCDC, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto publicKeyBase64]', symObjAddr: 0x343A, symBinAddr: 0x7252, symSize: 0x52 }
+  - { offsetInCU: 0x5563, offset: 0x7BD38, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto publicKey]', symObjAddr: 0x348C, symBinAddr: 0x72A4, symSize: 0x37 }
+  - { offsetInCU: 0x55B3, offset: 0x7BD88, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto setPublicKey:]', symObjAddr: 0x34C3, symBinAddr: 0x72DB, symSize: 0x11B }
+  - { offsetInCU: 0x5693, offset: 0x7BE68, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto setPublicKeyBase64:]', symObjAddr: 0x35DE, symBinAddr: 0x73F6, symSize: 0x7B }
+  - { offsetInCU: 0x5714, offset: 0x7BEE9, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto description]', symObjAddr: 0x3659, symBinAddr: 0x7471, symSize: 0xA3 }
+  - { offsetInCU: 0x5788, offset: 0x7BF5D, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto bits]', symObjAddr: 0x36FC, symBinAddr: 0x7514, symSize: 0x9 }
+  - { offsetInCU: 0x57BD, offset: 0x7BF92, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto name]', symObjAddr: 0x3705, symBinAddr: 0x751D, symSize: 0xA }
+  - { offsetInCU: 0x57F2, offset: 0x7BFC7, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto compressedPublicKey]', symObjAddr: 0x370F, symBinAddr: 0x7527, symSize: 0x9 }
+  - { offsetInCU: 0x5827, offset: 0x7BFFC, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto setCompressedPublicKey:]', symObjAddr: 0x3718, symBinAddr: 0x7530, symSize: 0x9 }
+  - { offsetInCU: 0x5864, offset: 0x7C039, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto privateKey]', symObjAddr: 0x3721, symBinAddr: 0x7539, symSize: 0xA }
+  - { offsetInCU: 0x5899, offset: 0x7C06E, size: 0x8, addend: 0x0, symName: '-[GMEllipticCurveCrypto .cxx_destruct]', symObjAddr: 0x372B, symBinAddr: 0x7543, symSize: 0x33 }
+  - { offsetInCU: 0x5C0D, offset: 0x7C3E2, size: 0x8, addend: 0x0, symName: __384_vli_mmod_fast, symObjAddr: 0x4498, symBinAddr: 0x82B0, symSize: 0x188 }
+  - { offsetInCU: 0x5E49, offset: 0x7C61E, size: 0x8, addend: 0x0, symName: _omega_mult, symObjAddr: 0x4620, symBinAddr: 0x8438, symSize: 0x161 }
+  - { offsetInCU: 0x27, offset: 0x7CDF1, size: 0x8, addend: 0x0, symName: '+[IXALog setLoggingEnabled:level:]', symObjAddr: 0x0, symBinAddr: 0x881F, symSize: 0x1D5 }
+  - { offsetInCU: 0x4B, offset: 0x7CE15, size: 0x8, addend: 0x0, symName: _loggingBundleName, symObjAddr: 0xAEB0, symBinAddr: 0x1685A0, symSize: 0x0 }
+  - { offsetInCU: 0x61, offset: 0x7CE2B, size: 0x8, addend: 0x0, symName: _loggingEnabled, symObjAddr: 0xAEA0, symBinAddr: 0x168590, symSize: 0x0 }
+  - { offsetInCU: 0x7E, offset: 0x7CE48, size: 0x8, addend: 0x0, symName: _logLevel, symObjAddr: 0xAEA8, symBinAddr: 0x168598, symSize: 0x0 }
+  - { offsetInCU: 0xC5, offset: 0x7CE8F, size: 0x8, addend: 0x0, symName: _logToFile, symObjAddr: 0xAEB8, symBinAddr: 0x1685A8, symSize: 0x0 }
+  - { offsetInCU: 0xD6, offset: 0x7CEA0, size: 0x8, addend: 0x0, symName: '+[IXALog setLoggingEnabled:level:]', symObjAddr: 0x0, symBinAddr: 0x881F, symSize: 0x1D5 }
+  - { offsetInCU: 0x25D, offset: 0x7D027, size: 0x8, addend: 0x0, symName: '+[IXALog setWriteToFileEnabled:]', symObjAddr: 0x1D5, symBinAddr: 0x89F4, symSize: 0xC }
+  - { offsetInCU: 0x29A, offset: 0x7D064, size: 0x8, addend: 0x0, symName: '+[IXALog isLoggingEnabled]', symObjAddr: 0x1E1, symBinAddr: 0x8A00, symSize: 0xC }
+  - { offsetInCU: 0x2CD, offset: 0x7D097, size: 0x8, addend: 0x0, symName: '+[IXALog logInfo:]', symObjAddr: 0x1ED, symBinAddr: 0x8A0C, symSize: 0x32 }
+  - { offsetInCU: 0x318, offset: 0x7D0E2, size: 0x8, addend: 0x0, symName: '+[IXALog logDebug:]', symObjAddr: 0x21F, symBinAddr: 0x8A3E, symSize: 0x32 }
+  - { offsetInCU: 0x363, offset: 0x7D12D, size: 0x8, addend: 0x0, symName: '+[IXALog logError:]', symObjAddr: 0x251, symBinAddr: 0x8A70, symSize: 0x32 }
+  - { offsetInCU: 0x3AE, offset: 0x7D178, size: 0x8, addend: 0x0, symName: '+[IXALog logInfoWithTag:message:]', symObjAddr: 0x283, symBinAddr: 0x8AA2, symSize: 0x2F }
+  - { offsetInCU: 0x407, offset: 0x7D1D1, size: 0x8, addend: 0x0, symName: '+[IXALog logDebugWithTag:message:]', symObjAddr: 0x2B2, symBinAddr: 0x8AD1, symSize: 0x2F }
+  - { offsetInCU: 0x460, offset: 0x7D22A, size: 0x8, addend: 0x0, symName: '+[IXALog logErrorWithTag:message:]', symObjAddr: 0x2E1, symBinAddr: 0x8B00, symSize: 0x2F }
+  - { offsetInCU: 0x4B9, offset: 0x7D283, size: 0x8, addend: 0x0, symName: '+[IXALog stackTrace:]', symObjAddr: 0x310, symBinAddr: 0x8B2F, symSize: 0x1AB }
+  - { offsetInCU: 0x59B, offset: 0x7D365, size: 0x8, addend: 0x0, symName: '+[IXALog logWithLevel:message:tag:]', symObjAddr: 0x4BB, symBinAddr: 0x8CDA, symSize: 0x150 }
+  - { offsetInCU: 0x69A, offset: 0x7D464, size: 0x8, addend: 0x0, symName: '+[IXALog writeMessage:]', symObjAddr: 0x60B, symBinAddr: 0x8E2A, symSize: 0x16E }
+  - { offsetInCU: 0x27, offset: 0x7D660, size: 0x8, addend: 0x0, symName: '+[IXACrypto secretKeyFromPassword:salt:]', symObjAddr: 0x0, symBinAddr: 0x8F98, symSize: 0x18 }
+  - { offsetInCU: 0xD6, offset: 0x7D70F, size: 0x8, addend: 0x0, symName: '+[IXACrypto secretKeyFromPassword:salt:]', symObjAddr: 0x0, symBinAddr: 0x8F98, symSize: 0x18 }
+  - { offsetInCU: 0x133, offset: 0x7D76C, size: 0x8, addend: 0x0, symName: '+[IXACrypto secretKeyFromPassword:salt:rounds:]', symObjAddr: 0x18, symBinAddr: 0x8FB0, symSize: 0x13F }
+  - { offsetInCU: 0x280, offset: 0x7D8B9, size: 0x8, addend: 0x0, symName: '+[IXACrypto nonceWithLength:]', symObjAddr: 0x157, symBinAddr: 0x90EF, symSize: 0x8C }
+  - { offsetInCU: 0x339, offset: 0x7D972, size: 0x8, addend: 0x0, symName: '+[IXACrypto encrypt:withKey:]', symObjAddr: 0x1E3, symBinAddr: 0x917B, symSize: 0x1C2 }
+  - { offsetInCU: 0x52F, offset: 0x7DB68, size: 0x8, addend: 0x0, symName: '+[IXACrypto decrypt:withKey:]', symObjAddr: 0x3A5, symBinAddr: 0x933D, symSize: 0x162 }
+  - { offsetInCU: 0x678, offset: 0x7DCB1, size: 0x8, addend: 0x0, symName: '+[IXACrypto symmetricKey]', symObjAddr: 0x507, symBinAddr: 0x949F, symSize: 0x7D }
+  - { offsetInCU: 0x6E4, offset: 0x7DD1D, size: 0x8, addend: 0x0, symName: '+[IXACrypto wrapSymmetricKey:withKey:]', symObjAddr: 0x584, symBinAddr: 0x951C, symSize: 0x103 }
+  - { offsetInCU: 0x81E, offset: 0x7DE57, size: 0x8, addend: 0x0, symName: '+[IXACrypto unwrapSymmetricKey:withKey:]', symObjAddr: 0x687, symBinAddr: 0x961F, symSize: 0x103 }
+  - { offsetInCU: 0x945, offset: 0x7DF7E, size: 0x8, addend: 0x0, symName: '+[IXACrypto wrapKey:withKey:]', symObjAddr: 0x78A, symBinAddr: 0x9722, symSize: 0x190 }
+  - { offsetInCU: 0xAC6, offset: 0x7E0FF, size: 0x8, addend: 0x0, symName: '+[IXACrypto unwrapKey:withKey:]', symObjAddr: 0x91A, symBinAddr: 0x98B2, symSize: 0x190 }
+  - { offsetInCU: 0xC42, offset: 0x7E27B, size: 0x8, addend: 0x0, symName: '+[IXACrypto SHA1:]', symObjAddr: 0xAAA, symBinAddr: 0x9A42, symSize: 0xE8 }
+  - { offsetInCU: 0xD6B, offset: 0x7E3A4, size: 0x8, addend: 0x0, symName: '+[IXACrypto SHA256:]', symObjAddr: 0xB92, symBinAddr: 0x9B2A, symSize: 0xE8 }
+  - { offsetInCU: 0xE8F, offset: 0x7E4C8, size: 0x8, addend: 0x0, symName: '+[IXACrypto SHA384:]', symObjAddr: 0xC7A, symBinAddr: 0x9C12, symSize: 0xEE }
+  - { offsetInCU: 0xFB3, offset: 0x7E5EC, size: 0x8, addend: 0x0, symName: '+[IXACrypto SHA512:]', symObjAddr: 0xD68, symBinAddr: 0x9D00, symSize: 0xEE }
+  - { offsetInCU: 0x10D2, offset: 0x7E70B, size: 0x8, addend: 0x0, symName: '+[IXACrypto encryptionKeyDataWithCertificate:completion:]', symObjAddr: 0xE56, symBinAddr: 0x9DEE, symSize: 0xD7 }
+  - { offsetInCU: 0x11E8, offset: 0x7E821, size: 0x8, addend: 0x0, symName: '___57+[IXACrypto encryptionKeyDataWithCertificate:completion:]_block_invoke', symObjAddr: 0xF2D, symBinAddr: 0x9EC5, symSize: 0x41 }
+  - { offsetInCU: 0x1270, offset: 0x7E8A9, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0xF6E, symBinAddr: 0x9F06, symSize: 0x30 }
+  - { offsetInCU: 0x12A5, offset: 0x7E8DE, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0xF9E, symBinAddr: 0x9F36, symSize: 0x25 }
+  - { offsetInCU: 0x12DC, offset: 0x7E915, size: 0x8, addend: 0x0, symName: '+[IXACrypto encryptionKeyDataWithCertificate:]', symObjAddr: 0xFC3, symBinAddr: 0x9F5B, symSize: 0x60 }
+  - { offsetInCU: 0x1378, offset: 0x7E9B1, size: 0x8, addend: 0x0, symName: '+[IXACrypto dataEncryptionKeyCopyWithCertificate:rootCertificate:san:]', symObjAddr: 0x1023, symBinAddr: 0x9FBB, symSize: 0x1BA }
+  - { offsetInCU: 0x14D0, offset: 0x7EB09, size: 0x8, addend: 0x0, symName: '+[IXACrypto dataEncryptionKeyCopyWithCertificates:anchors:san:]', symObjAddr: 0x11DD, symBinAddr: 0xA175, symSize: 0x207 }
+  - { offsetInCU: 0x17AC, offset: 0x7EDE5, size: 0x8, addend: 0x0, symName: '+[IXACrypto isAllowedSubjectAltName:certificate:]', symObjAddr: 0x13E4, symBinAddr: 0xA37C, symSize: 0x423 }
+  - { offsetInCU: 0x1A0F, offset: 0x7F048, size: 0x8, addend: 0x0, symName: '+[IXACrypto createAnchorCertificates:]', symObjAddr: 0x1807, symBinAddr: 0xA79F, symSize: 0x1E2 }
+  - { offsetInCU: 0x1B3E, offset: 0x7F177, size: 0x8, addend: 0x0, symName: '+[IXACrypto dataWithPublicKey:]', symObjAddr: 0x19E9, symBinAddr: 0xA981, symSize: 0x13D }
+  - { offsetInCU: 0x27, offset: 0x7F52D, size: 0x8, addend: 0x0, symName: '+[IXADER parseWithData:]', symObjAddr: 0x0, symBinAddr: 0xAABE, symSize: 0xA9 }
+  - { offsetInCU: 0x3C, offset: 0x7F542, size: 0x8, addend: 0x0, symName: '+[IXADER parseWithData:]', symObjAddr: 0x0, symBinAddr: 0xAABE, symSize: 0xA9 }
+  - { offsetInCU: 0x27, offset: 0x7F6EA, size: 0x8, addend: 0x0, symName: '-[IXASecureRemotePassword initWithN:g:I:s:H:]', symObjAddr: 0x0, symBinAddr: 0xAB67, symSize: 0x11F }
+  - { offsetInCU: 0x113, offset: 0x7F7D6, size: 0x8, addend: 0x0, symName: '-[IXASecureRemotePassword initWithN:g:I:s:H:]', symObjAddr: 0x0, symBinAddr: 0xAB67, symSize: 0x11F }
+  - { offsetInCU: 0x21D, offset: 0x7F8E0, size: 0x8, addend: 0x0, symName: '-[IXASecureRemotePassword initWithExtensionsN:g:I:s:H:]', symObjAddr: 0x11F, symBinAddr: 0xAC86, symSize: 0x15D }
+  - { offsetInCU: 0x36F, offset: 0x7FA32, size: 0x8, addend: 0x0, symName: '-[IXASecureRemotePassword generateEvidenceWithPassword:serverPublicValue:]', symObjAddr: 0x27C, symBinAddr: 0xADE3, symSize: 0x212 }
+  - { offsetInCU: 0x594, offset: 0x7FC57, size: 0x8, addend: 0x0, symName: '-[IXASecureRemotePassword generateVerifierWithPassword:]', symObjAddr: 0x48E, symBinAddr: 0xAFF5, symSize: 0x143 }
+  - { offsetInCU: 0x71F, offset: 0x7FDE2, size: 0x8, addend: 0x0, symName: '-[IXASecureRemotePassword calculateAForUser:]', symObjAddr: 0x5D1, symBinAddr: 0xB138, symSize: 0x61 }
+  - { offsetInCU: 0x7B4, offset: 0x7FE77, size: 0x8, addend: 0x0, symName: '-[IXASecureRemotePassword calculateMForUser:B:]', symObjAddr: 0x632, symBinAddr: 0xB199, symSize: 0xF8 }
+  - { offsetInCU: 0x8F9, offset: 0x7FFBC, size: 0x8, addend: 0x0, symName: '-[IXASecureRemotePassword calculateM2ForUser:]', symObjAddr: 0x72A, symBinAddr: 0xB291, symSize: 0x61 }
+  - { offsetInCU: 0x98E, offset: 0x80051, size: 0x8, addend: 0x0, symName: '-[IXASecureRemotePassword isValidEvidenceMessage:]', symObjAddr: 0x78B, symBinAddr: 0xB2F2, symSize: 0x87 }
+  - { offsetInCU: 0xA30, offset: 0x800F3, size: 0x8, addend: 0x0, symName: '-[IXASecureRemotePassword .cxx_destruct]', symObjAddr: 0x812, symBinAddr: 0xB379, symSize: 0x49 }
+  - { offsetInCU: 0x27, offset: 0x80176, size: 0x8, addend: 0x0, symName: '-[BerTag init:offset:length:]', symObjAddr: 0x0, symBinAddr: 0xB3C2, symSize: 0x8F }
+  - { offsetInCU: 0x7F, offset: 0x801CE, size: 0x8, addend: 0x0, symName: '-[BerTag init:offset:length:]', symObjAddr: 0x0, symBinAddr: 0xB3C2, symSize: 0x8F }
+  - { offsetInCU: 0x135, offset: 0x80284, size: 0x8, addend: 0x0, symName: '-[BerTag init:]', symObjAddr: 0x8F, symBinAddr: 0xB451, symSize: 0x72 }
+  - { offsetInCU: 0x194, offset: 0x802E3, size: 0x8, addend: 0x0, symName: '-[BerTag init:secondByte:]', symObjAddr: 0x101, symBinAddr: 0xB4C3, symSize: 0x84 }
+  - { offsetInCU: 0x221, offset: 0x80370, size: 0x8, addend: 0x0, symName: '-[BerTag init:secondByte:thirdByte:]', symObjAddr: 0x185, symBinAddr: 0xB547, symSize: 0x8F }
+  - { offsetInCU: 0x2BE, offset: 0x8040D, size: 0x8, addend: 0x0, symName: '-[BerTag isConstructed]', symObjAddr: 0x214, symBinAddr: 0xB5D6, symSize: 0x1E }
+  - { offsetInCU: 0x311, offset: 0x80460, size: 0x8, addend: 0x0, symName: '-[BerTag isEqual:]', symObjAddr: 0x232, symBinAddr: 0xB5F4, symSize: 0x99 }
+  - { offsetInCU: 0x3A0, offset: 0x804EF, size: 0x8, addend: 0x0, symName: '-[BerTag isEqualToTag:]', symObjAddr: 0x2CB, symBinAddr: 0xB68D, symSize: 0x5F }
+  - { offsetInCU: 0x40B, offset: 0x8055A, size: 0x8, addend: 0x0, symName: '-[BerTag hash]', symObjAddr: 0x32A, symBinAddr: 0xB6EC, symSize: 0x16 }
+  - { offsetInCU: 0x44E, offset: 0x8059D, size: 0x8, addend: 0x0, symName: '-[BerTag description]', symObjAddr: 0x340, symBinAddr: 0xB702, symSize: 0xC7 }
+  - { offsetInCU: 0x4E5, offset: 0x80634, size: 0x8, addend: 0x0, symName: '+[BerTag parse:]', symObjAddr: 0x407, symBinAddr: 0xB7C9, symSize: 0x7C }
+  - { offsetInCU: 0x564, offset: 0x806B3, size: 0x8, addend: 0x0, symName: '-[BerTag hex]', symObjAddr: 0x483, symBinAddr: 0xB845, symSize: 0x20 }
+  - { offsetInCU: 0x5A7, offset: 0x806F6, size: 0x8, addend: 0x0, symName: '-[BerTag data]', symObjAddr: 0x4A3, symBinAddr: 0xB865, symSize: 0xA }
+  - { offsetInCU: 0x5DC, offset: 0x8072B, size: 0x8, addend: 0x0, symName: '-[BerTag setData:]', symObjAddr: 0x4AD, symBinAddr: 0xB86F, symSize: 0xF }
+  - { offsetInCU: 0x61B, offset: 0x8076A, size: 0x8, addend: 0x0, symName: '-[BerTag .cxx_destruct]', symObjAddr: 0x4BC, symBinAddr: 0xB87E, symSize: 0x10 }
+  - { offsetInCU: 0x27, offset: 0x8084F, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys initWithName:algorithm:]', symObjAddr: 0x0, symBinAddr: 0xB88E, symSize: 0x160 }
+  - { offsetInCU: 0x6D, offset: 0x80895, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys encodedPublicKey]', symObjAddr: 0x1370, symBinAddr: 0xCBFE, symSize: 0x1E0 }
+  - { offsetInCU: 0x99, offset: 0x808C1, size: 0x8, addend: 0x0, symName: _encodedPublicKey._encodedRSAEncryptionOID, symObjAddr: 0x4650, symBinAddr: 0xF67FC, symSize: 0x0 }
+  - { offsetInCU: 0x37F, offset: 0x80BA7, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys initWithName:algorithm:]', symObjAddr: 0x0, symBinAddr: 0xB88E, symSize: 0x160 }
+  - { offsetInCU: 0x44E, offset: 0x80C76, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys createKeysWithAccessControl:]', symObjAddr: 0x160, symBinAddr: 0xB9EE, symSize: 0x1C }
+  - { offsetInCU: 0x49D, offset: 0x80CC5, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys createKeysWithAccessibility:enclave:]', symObjAddr: 0x17C, symBinAddr: 0xBA0A, symSize: 0x37 }
+  - { offsetInCU: 0x50C, offset: 0x80D34, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys createKeysWithAccessControl:accessibility:]', symObjAddr: 0x1B3, symBinAddr: 0xBA41, symSize: 0xA4 }
+  - { offsetInCU: 0x5DF, offset: 0x80E07, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys name]', symObjAddr: 0x257, symBinAddr: 0xBAE5, symSize: 0xE }
+  - { offsetInCU: 0x616, offset: 0x80E3E, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys isRSAKey]', symObjAddr: 0x265, symBinAddr: 0xBAF3, symSize: 0x24 }
+  - { offsetInCU: 0x678, offset: 0x80EA0, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys isECKey]', symObjAddr: 0x289, symBinAddr: 0xBB17, symSize: 0x24 }
+  - { offsetInCU: 0x6BD, offset: 0x80EE5, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys signatureAlgorithm]', symObjAddr: 0x2AD, symBinAddr: 0xBB3B, symSize: 0x2A }
+  - { offsetInCU: 0x700, offset: 0x80F28, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys keyAlgorithm]', symObjAddr: 0x2D7, symBinAddr: 0xBB65, symSize: 0x2B }
+  - { offsetInCU: 0x743, offset: 0x80F6B, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys hasLocalAuthenticationSupport]', symObjAddr: 0x302, symBinAddr: 0xBB90, symSize: 0x18 }
+  - { offsetInCU: 0x7A0, offset: 0x80FC8, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys isSecureEnclaveSupported]', symObjAddr: 0x31A, symBinAddr: 0xBBA8, symSize: 0x12 }
+  - { offsetInCU: 0x7E1, offset: 0x81009, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys createKeysWithSize:flags:]', symObjAddr: 0x32C, symBinAddr: 0xBBBA, symSize: 0x1F }
+  - { offsetInCU: 0x840, offset: 0x81068, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys createKeysWithSize:accessibility:flags:]', symObjAddr: 0x34B, symBinAddr: 0xBBD9, symSize: 0x43D }
+  - { offsetInCU: 0xC66, offset: 0x8148E, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys createiOS7KeysWithSize:]', symObjAddr: 0x788, symBinAddr: 0xC016, symSize: 0x1DA }
+  - { offsetInCU: 0xE1B, offset: 0x81643, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys createSecureEnclaveKeysWithSize:flags:]', symObjAddr: 0x962, symBinAddr: 0xC1F0, symSize: 0x1F }
+  - { offsetInCU: 0xE7D, offset: 0x816A5, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys createSecureEnclaveKeysWithSize:accessibility:flags:]', symObjAddr: 0x981, symBinAddr: 0xC20F, symSize: 0x39E }
+  - { offsetInCU: 0x119B, offset: 0x819C3, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys savePublicKey:]', symObjAddr: 0xD1F, symBinAddr: 0xC5AD, symSize: 0x154 }
+  - { offsetInCU: 0x12E7, offset: 0x81B0F, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys updateKeyAccessibility:flags:]', symObjAddr: 0xE73, symBinAddr: 0xC701, symSize: 0x277 }
+  - { offsetInCU: 0x1504, offset: 0x81D2C, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys updatePrivateKeyAttributes:]', symObjAddr: 0x10EA, symBinAddr: 0xC978, symSize: 0xB1 }
+  - { offsetInCU: 0x15C3, offset: 0x81DEB, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys removeKeys]', symObjAddr: 0x119B, symBinAddr: 0xCA29, symSize: 0x10E }
+  - { offsetInCU: 0x16D6, offset: 0x81EFE, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys invalidateKeys]', symObjAddr: 0x12A9, symBinAddr: 0xCB37, symSize: 0x90 }
+  - { offsetInCU: 0x1784, offset: 0x81FAC, size: 0x8, addend: 0x0, symName: _encodeLength, symObjAddr: 0x1339, symBinAddr: 0xCBC7, symSize: 0x37 }
+  - { offsetInCU: 0x1815, offset: 0x8203D, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys publicKeyData]', symObjAddr: 0x1550, symBinAddr: 0xCDDE, symSize: 0xF2 }
+  - { offsetInCU: 0x1908, offset: 0x82130, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys privateKeyData]', symObjAddr: 0x1642, symBinAddr: 0xCED0, symSize: 0xF2 }
+  - { offsetInCU: 0x19E3, offset: 0x8220B, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys publicKey]', symObjAddr: 0x1734, symBinAddr: 0xCFC2, symSize: 0xEE }
+  - { offsetInCU: 0x1ABE, offset: 0x822E6, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys privateKey]', symObjAddr: 0x1822, symBinAddr: 0xD0B0, symSize: 0x1B }
+  - { offsetInCU: 0x1B00, offset: 0x82328, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys privateKeyWithReason:status:]', symObjAddr: 0x183D, symBinAddr: 0xD0CB, symSize: 0x107 }
+  - { offsetInCU: 0x1BFD, offset: 0x82425, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys sign:status:]', symObjAddr: 0x1944, symBinAddr: 0xD1D2, symSize: 0x17 }
+  - { offsetInCU: 0x1C5F, offset: 0x82487, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys sign:reason:status:]', symObjAddr: 0x195B, symBinAddr: 0xD1E9, symSize: 0x131 }
+  - { offsetInCU: 0x1D5A, offset: 0x82582, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys hashWithData:]', symObjAddr: 0x1A8C, symBinAddr: 0xD31A, symSize: 0x19 }
+  - { offsetInCU: 0x1DA9, offset: 0x825D1, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys signWithKey:data:padding:status:]', symObjAddr: 0x1AA5, symBinAddr: 0xD333, symSize: 0x3BB }
+  - { offsetInCU: 0x2126, offset: 0x8294E, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys verify:signature:]', symObjAddr: 0x1E60, symBinAddr: 0xD6EE, symSize: 0x165 }
+  - { offsetInCU: 0x2296, offset: 0x82ABE, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys publicKeyAttributes]', symObjAddr: 0x1FC5, symBinAddr: 0xD853, symSize: 0x102 }
+  - { offsetInCU: 0x237F, offset: 0x82BA7, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys privateKeyAttributes]', symObjAddr: 0x20C7, symBinAddr: 0xD955, symSize: 0x11E }
+  - { offsetInCU: 0x2476, offset: 0x82C9E, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys isStoredInSecureEnclave]', symObjAddr: 0x21E5, symBinAddr: 0xDA73, symSize: 0x195 }
+  - { offsetInCU: 0x2588, offset: 0x82DB0, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys keyType]', symObjAddr: 0x237A, symBinAddr: 0xDC08, symSize: 0xC6 }
+  - { offsetInCU: 0x261D, offset: 0x82E45, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys hasAccessControl]', symObjAddr: 0x2440, symBinAddr: 0xDCCE, symSize: 0x1DA }
+  - { offsetInCU: 0x2713, offset: 0x82F3B, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys accessibility]', symObjAddr: 0x261A, symBinAddr: 0xDEA8, symSize: 0x174 }
+  - { offsetInCU: 0x27E8, offset: 0x83010, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys rename:]', symObjAddr: 0x278E, symBinAddr: 0xE01C, symSize: 0x150 }
+  - { offsetInCU: 0x28F5, offset: 0x8311D, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys updateKeyName:toName:]', symObjAddr: 0x28DE, symBinAddr: 0xE16C, symSize: 0x12F }
+  - { offsetInCU: 0x2A18, offset: 0x83240, size: 0x8, addend: 0x0, symName: '+[IXASecureKeys findKeysWithTag:error:]', symObjAddr: 0x2A0D, symBinAddr: 0xE29B, symSize: 0x354 }
+  - { offsetInCU: 0x2C1D, offset: 0x83445, size: 0x8, addend: 0x0, symName: '+[IXASecureKeys removeKeyWithTag:]', symObjAddr: 0x2D61, symBinAddr: 0xE5EF, symSize: 0x8E }
+  - { offsetInCU: 0x2CE2, offset: 0x8350A, size: 0x8, addend: 0x0, symName: '+[IXASecureKeys removeAllKeys]', symObjAddr: 0x2DEF, symBinAddr: 0xE67D, symSize: 0x220 }
+  - { offsetInCU: 0x2DCB, offset: 0x835F3, size: 0x8, addend: 0x0, symName: '+[IXASecureKeys hasKeyWithName:]', symObjAddr: 0x300F, symBinAddr: 0xE89D, symSize: 0x11E }
+  - { offsetInCU: 0x2EC9, offset: 0x836F1, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys encryptData:]', symObjAddr: 0x312D, symBinAddr: 0xE9BB, symSize: 0xFC }
+  - { offsetInCU: 0x3006, offset: 0x8382E, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys decryptData:]', symObjAddr: 0x3229, symBinAddr: 0xEAB7, symSize: 0xFC }
+  - { offsetInCU: 0x3143, offset: 0x8396B, size: 0x8, addend: 0x0, symName: '+[IXASecureKeys test]', symObjAddr: 0x3325, symBinAddr: 0xEBB3, symSize: 0x20B }
+  - { offsetInCU: 0x328E, offset: 0x83AB6, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys isNewKey]', symObjAddr: 0x3530, symBinAddr: 0xEDBE, symSize: 0x9 }
+  - { offsetInCU: 0x32C3, offset: 0x83AEB, size: 0x8, addend: 0x0, symName: '-[IXASecureKeys .cxx_destruct]', symObjAddr: 0x3539, symBinAddr: 0xEDC7, symSize: 0x3E }
+  - { offsetInCU: 0x27, offset: 0x83C38, size: 0x8, addend: 0x0, symName: '+[IXAKeychain setKey:value:]', symObjAddr: 0x0, symBinAddr: 0xEE05, symSize: 0x90 }
+  - { offsetInCU: 0x91, offset: 0x83CA2, size: 0x8, addend: 0x0, symName: '+[IXAKeychain setKey:value:]', symObjAddr: 0x0, symBinAddr: 0xEE05, symSize: 0x90 }
+  - { offsetInCU: 0x13C, offset: 0x83D4D, size: 0x8, addend: 0x0, symName: '+[IXAKeychain setKey:data:]', symObjAddr: 0x90, symBinAddr: 0xEE95, symSize: 0x190 }
+  - { offsetInCU: 0x2A8, offset: 0x83EB9, size: 0x8, addend: 0x0, symName: '+[IXAKeychain stringForKey:]', symObjAddr: 0x220, symBinAddr: 0xF025, symSize: 0x76 }
+  - { offsetInCU: 0x33B, offset: 0x83F4C, size: 0x8, addend: 0x0, symName: '+[IXAKeychain dataForKey:]', symObjAddr: 0x296, symBinAddr: 0xF09B, symSize: 0xF7 }
+  - { offsetInCU: 0x434, offset: 0x84045, size: 0x8, addend: 0x0, symName: '+[IXAKeychain deleteKey:]', symObjAddr: 0x38D, symBinAddr: 0xF192, symSize: 0xA2 }
+  - { offsetInCU: 0x500, offset: 0x84111, size: 0x8, addend: 0x0, symName: '+[IXAKeychain clear]', symObjAddr: 0x42F, symBinAddr: 0xF234, symSize: 0x6A }
+  - { offsetInCU: 0x585, offset: 0x84196, size: 0x8, addend: 0x0, symName: '+[IXAKeychain findKeysWithString:error:]', symObjAddr: 0x499, symBinAddr: 0xF29E, symSize: 0x3BC }
+  - { offsetInCU: 0x7DB, offset: 0x843EC, size: 0x8, addend: 0x0, symName: '+[IXAKeychain allKeys]', symObjAddr: 0x855, symBinAddr: 0xF65A, symSize: 0x278 }
+  - { offsetInCU: 0x27, offset: 0x845F8, size: 0x8, addend: 0x0, symName: '+[HexUtil prettyFormat:]', symObjAddr: 0x0, symBinAddr: 0xF8D2, symSize: 0x126 }
+  - { offsetInCU: 0x48, offset: 0x84619, size: 0x8, addend: 0x0, symName: _HEX_BYTES, symObjAddr: 0x6D0, symBinAddr: 0xF6810, symSize: 0x0 }
+  - { offsetInCU: 0x6C, offset: 0x8463D, size: 0x8, addend: 0x0, symName: '+[HexUtil prettyFormat:]', symObjAddr: 0x0, symBinAddr: 0xF8D2, symSize: 0x126 }
+  - { offsetInCU: 0x199, offset: 0x8476A, size: 0x8, addend: 0x0, symName: '+[HexUtil format:]', symObjAddr: 0x126, symBinAddr: 0xF9F8, symSize: 0x6E }
+  - { offsetInCU: 0x20C, offset: 0x847DD, size: 0x8, addend: 0x0, symName: '+[HexUtil parse:]', symObjAddr: 0x194, symBinAddr: 0xFA66, symSize: 0x1B1 }
+  - { offsetInCU: 0x3D9, offset: 0x849AA, size: 0x8, addend: 0x0, symName: '+[HexUtil format:offset:len:]', symObjAddr: 0x345, symBinAddr: 0xFC17, symSize: 0xCF }
+  - { offsetInCU: 0x27, offset: 0x84B44, size: 0x8, addend: 0x0, symName: '+[IXAUtil string:matchesPattern:]', symObjAddr: 0x0, symBinAddr: 0xFCE6, symSize: 0xC5 }
+  - { offsetInCU: 0x54, offset: 0x84B71, size: 0x8, addend: 0x0, symName: '+[IXAUtil string:matchesPattern:]', symObjAddr: 0x0, symBinAddr: 0xFCE6, symSize: 0xC5 }
+  - { offsetInCU: 0x143, offset: 0x84C60, size: 0x8, addend: 0x0, symName: '+[IXAUtil hexWithData:]', symObjAddr: 0xC5, symBinAddr: 0xFDAB, symSize: 0x136 }
+  - { offsetInCU: 0x27, offset: 0x84DDF, size: 0x8, addend: 0x0, symName: '+[IXABase64 decode:]', symObjAddr: 0x0, symBinAddr: 0xFEE4, symSize: 0x4F }
+  - { offsetInCU: 0x3C, offset: 0x84DF4, size: 0x8, addend: 0x0, symName: '+[IXABase64 decode:]', symObjAddr: 0x0, symBinAddr: 0xFEE4, symSize: 0x4F }
+  - { offsetInCU: 0xA3, offset: 0x84E5B, size: 0x8, addend: 0x0, symName: '+[IXABase64 encode:]', symObjAddr: 0x4F, symBinAddr: 0xFF33, symSize: 0x17 }
+  - { offsetInCU: 0xF2, offset: 0x84EAA, size: 0x8, addend: 0x0, symName: '+[IXABase64 encodeBase64URLData:]', symObjAddr: 0x66, symBinAddr: 0xFF4A, symSize: 0x9A }
+  - { offsetInCU: 0x171, offset: 0x84F29, size: 0x8, addend: 0x0, symName: '+[IXABase64 decodeBase64URLString:]', symObjAddr: 0x100, symBinAddr: 0xFFE4, symSize: 0xC6 }
+  - { offsetInCU: 0x220, offset: 0x84FD8, size: 0x8, addend: 0x0, symName: '+[IXABase64 base64PadString:]', symObjAddr: 0x1C6, symBinAddr: 0x100AA, symSize: 0xE6 }
+  - { offsetInCU: 0x27, offset: 0x850FB, size: 0x8, addend: 0x0, symName: '-[BerTlvParser parseConstructed:]', symObjAddr: 0x0, symBinAddr: 0x10190, symSize: 0x85 }
+  - { offsetInCU: 0x62, offset: 0x85136, size: 0x8, addend: 0x0, symName: '-[BerTlvParser parseConstructed:]', symObjAddr: 0x0, symBinAddr: 0x10190, symSize: 0x85 }
+  - { offsetInCU: 0xF5, offset: 0x851C9, size: 0x8, addend: 0x0, symName: '-[BerTlvParser parseWithResult:data:offset:len:level:]', symObjAddr: 0x85, symBinAddr: 0x10215, symSize: 0x280 }
+  - { offsetInCU: 0x309, offset: 0x853DD, size: 0x8, addend: 0x0, symName: '-[BerTlvParser calcTagBytesCount:offset:]', symObjAddr: 0x305, symBinAddr: 0x10495, symSize: 0x68 }
+  - { offsetInCU: 0x3B6, offset: 0x8548A, size: 0x8, addend: 0x0, symName: '-[BerTlvParser createTag:offset:len:pad:]', symObjAddr: 0x36D, symBinAddr: 0x104FD, symSize: 0x61 }
+  - { offsetInCU: 0x459, offset: 0x8552D, size: 0x8, addend: 0x0, symName: '-[BerTlvParser createLevelPadding:]', symObjAddr: 0x3CE, symBinAddr: 0x1055E, symSize: 0x75 }
+  - { offsetInCU: 0x4DF, offset: 0x855B3, size: 0x8, addend: 0x0, symName: '-[BerTlvParser calcLengthBytesCount:offset:]', symObjAddr: 0x443, symBinAddr: 0x105D3, symSize: 0x43 }
+  - { offsetInCU: 0x55E, offset: 0x85632, size: 0x8, addend: 0x0, symName: '-[BerTlvParser calcDataLength:offset:]', symObjAddr: 0x486, symBinAddr: 0x10616, symSize: 0xFE }
+  - { offsetInCU: 0x64F, offset: 0x85723, size: 0x8, addend: 0x0, symName: '-[BerTlvParser addChildren:offset:level:levelPadding:tagBytesCount:dataBytesCount:valueLength:array:]', symObjAddr: 0x584, symBinAddr: 0x10714, symSize: 0xE6 }
+  - { offsetInCU: 0x27, offset: 0x85947, size: 0x8, addend: 0x0, symName: '+[IXAOneTimePassword timeToLiveWithStep:]', symObjAddr: 0x0, symBinAddr: 0x107FA, symSize: 0x81 }
+  - { offsetInCU: 0xCC, offset: 0x859EC, size: 0x8, addend: 0x0, symName: '+[IXAOneTimePassword timeToLiveWithStep:]', symObjAddr: 0x0, symBinAddr: 0x107FA, symSize: 0x81 }
+  - { offsetInCU: 0x143, offset: 0x85A63, size: 0x8, addend: 0x0, symName: '-[IXAOneTimePassword initWithLength:step:algorithm:]', symObjAddr: 0x81, symBinAddr: 0x1087B, symSize: 0x1A }
+  - { offsetInCU: 0x1AD, offset: 0x85ACD, size: 0x8, addend: 0x0, symName: '-[IXAOneTimePassword initWithLength:step:algorithm:minimumTimeToLive:]', symObjAddr: 0x9B, symBinAddr: 0x10895, symSize: 0x190 }
+  - { offsetInCU: 0x2A8, offset: 0x85BC8, size: 0x8, addend: 0x0, symName: '-[IXAOneTimePassword deleteKeys]', symObjAddr: 0x22B, symBinAddr: 0x10A25, symSize: 0x6F }
+  - { offsetInCU: 0x30B, offset: 0x85C2B, size: 0x8, addend: 0x0, symName: '-[IXAOneTimePassword timeToLive]', symObjAddr: 0x29A, symBinAddr: 0x10A94, symSize: 0x6B }
+  - { offsetInCU: 0x372, offset: 0x85C92, size: 0x8, addend: 0x0, symName: '-[IXAOneTimePassword generateKeys]', symObjAddr: 0x305, symBinAddr: 0x10AFF, symSize: 0xF8 }
+  - { offsetInCU: 0x421, offset: 0x85D41, size: 0x8, addend: 0x0, symName: '-[IXAOneTimePassword oneTimePasswordWithPublicKey:data:state:completion:]', symObjAddr: 0x3FD, symBinAddr: 0x10BF7, symSize: 0x137 }
+  - { offsetInCU: 0x5B4, offset: 0x85ED4, size: 0x8, addend: 0x0, symName: '___73-[IXAOneTimePassword oneTimePasswordWithPublicKey:data:state:completion:]_block_invoke', symObjAddr: 0x534, symBinAddr: 0x10D2E, symSize: 0x19D }
+  - { offsetInCU: 0x737, offset: 0x86057, size: 0x8, addend: 0x0, symName: '___73-[IXAOneTimePassword oneTimePasswordWithPublicKey:data:state:completion:]_block_invoke_2', symObjAddr: 0x6D1, symBinAddr: 0x10ECB, symSize: 0x4C }
+  - { offsetInCU: 0x7DA, offset: 0x860FA, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64b, symObjAddr: 0x71D, symBinAddr: 0x10F17, symSize: 0x52 }
+  - { offsetInCU: 0x833, offset: 0x86153, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s, symObjAddr: 0x76F, symBinAddr: 0x10F69, symSize: 0x3A }
+  - { offsetInCU: 0x88E, offset: 0x861AE, size: 0x8, addend: 0x0, symName: '___73-[IXAOneTimePassword oneTimePasswordWithPublicKey:data:state:completion:]_block_invoke.48', symObjAddr: 0x7A9, symBinAddr: 0x10FA3, symSize: 0x4C }
+  - { offsetInCU: 0x931, offset: 0x86251, size: 0x8, addend: 0x0, symName: '-[IXAOneTimePassword oneTimePasswordWithPublicKey:data:state:]', symObjAddr: 0x7F5, symBinAddr: 0x10FEF, symSize: 0x255 }
+  - { offsetInCU: 0xB5E, offset: 0x8647E, size: 0x8, addend: 0x0, symName: '-[IXAOneTimePassword secret:withHash:]', symObjAddr: 0xA4A, symBinAddr: 0x11244, symSize: 0x140 }
+  - { offsetInCU: 0xCB2, offset: 0x865D2, size: 0x8, addend: 0x0, symName: '-[IXAOneTimePassword publicKey]', symObjAddr: 0xB8A, symBinAddr: 0x11384, symSize: 0x62 }
+  - { offsetInCU: 0xD0D, offset: 0x8662D, size: 0x8, addend: 0x0, symName: '-[IXAOneTimePassword time]', symObjAddr: 0xBEC, symBinAddr: 0x113E6, symSize: 0x60 }
+  - { offsetInCU: 0xD70, offset: 0x86690, size: 0x8, addend: 0x0, symName: '-[IXAOneTimePassword sharedSecretWithPublicKey:]', symObjAddr: 0xC4C, symBinAddr: 0x11446, symSize: 0xAC }
+  - { offsetInCU: 0xE1A, offset: 0x8673A, size: 0x8, addend: 0x0, symName: '-[IXAOneTimePassword .cxx_destruct]', symObjAddr: 0xCF8, symBinAddr: 0x114F2, symSize: 0x33 }
+  - { offsetInCU: 0x27, offset: 0x86B08, size: 0x8, addend: 0x0, symName: '+[IXABiometricsFactor factorWithKeyname:]', symObjAddr: 0x0, symBinAddr: 0x11525, symSize: 0x4F }
+  - { offsetInCU: 0x158, offset: 0x86C39, size: 0x8, addend: 0x0, symName: '+[IXABiometricsFactor factorWithKeyname:]', symObjAddr: 0x0, symBinAddr: 0x11525, symSize: 0x4F }
+  - { offsetInCU: 0x1BF, offset: 0x86CA0, size: 0x8, addend: 0x0, symName: '+[IXABiometricsFactor factorWithKeyname:options:]', symObjAddr: 0x4F, symBinAddr: 0x11574, symSize: 0x5C }
+  - { offsetInCU: 0x236, offset: 0x86D17, size: 0x8, addend: 0x0, symName: '+[IXABiometricsFactor hasFaceID]', symObjAddr: 0xAB, symBinAddr: 0x115D0, symSize: 0x77 }
+  - { offsetInCU: 0x2C4, offset: 0x86DA5, size: 0x8, addend: 0x0, symName: '+[IXABiometricsFactor hasTouchID]', symObjAddr: 0x122, symBinAddr: 0x11647, symSize: 0x77 }
+  - { offsetInCU: 0x26, offset: 0x86E8E, size: 0x8, addend: 0x0, symName: _srp_create_salted_verification_key, symObjAddr: 0x0, symBinAddr: 0x116C0, symSize: 0x10D }
+  - { offsetInCU: 0x4E, offset: 0x86EB6, size: 0x8, addend: 0x0, symName: _g_initialized, symObjAddr: 0xDFA0, symBinAddr: 0x1685AC, symSize: 0x0 }
+  - { offsetInCU: 0x224, offset: 0x8708C, size: 0x8, addend: 0x0, symName: _srp_create_salted_verification_key, symObjAddr: 0x0, symBinAddr: 0x116C0, symSize: 0x10D }
+  - { offsetInCU: 0x42A, offset: 0x87292, size: 0x8, addend: 0x0, symName: _new_ng, symObjAddr: 0x10D, symBinAddr: 0x117CD, symSize: 0x55 }
+  - { offsetInCU: 0x4D6, offset: 0x8733E, size: 0x8, addend: 0x0, symName: _calculate_x, symObjAddr: 0x162, symBinAddr: 0x11822, symSize: 0x179 }
+  - { offsetInCU: 0x6DA, offset: 0x87542, size: 0x8, addend: 0x0, symName: _delete_ng, symObjAddr: 0x2DB, symBinAddr: 0x1199B, symSize: 0x28 }
+  - { offsetInCU: 0x7DF, offset: 0x87647, size: 0x8, addend: 0x0, symName: _hash_init, symObjAddr: 0xACE, symBinAddr: 0x1218E, symSize: 0x5A }
+  - { offsetInCU: 0x85F, offset: 0x876C7, size: 0x8, addend: 0x0, symName: _hash_update, symObjAddr: 0xC1A, symBinAddr: 0x122DA, symSize: 0x7A }
+  - { offsetInCU: 0x8FF, offset: 0x87767, size: 0x8, addend: 0x0, symName: _hash_final, symObjAddr: 0xB95, symBinAddr: 0x12255, symSize: 0x5B }
+  - { offsetInCU: 0x98D, offset: 0x877F5, size: 0x8, addend: 0x0, symName: _hash, symObjAddr: 0xC94, symBinAddr: 0x12354, symSize: 0x78 }
+  - { offsetInCU: 0xA63, offset: 0x878CB, size: 0x8, addend: 0x0, symName: _srp_user_new, symObjAddr: 0x303, symBinAddr: 0x119C3, symSize: 0x15F }
+  - { offsetInCU: 0xBF3, offset: 0x87A5B, size: 0x8, addend: 0x0, symName: _srp_user_delete, symObjAddr: 0x462, symBinAddr: 0x11B22, symSize: 0x5B }
+  - { offsetInCU: 0xC54, offset: 0x87ABC, size: 0x8, addend: 0x0, symName: _srp_user_start_authentication, symObjAddr: 0x4BD, symBinAddr: 0x11B7D, symSize: 0x95 }
+  - { offsetInCU: 0xFE2, offset: 0x87E4A, size: 0x8, addend: 0x0, symName: _srp_user_process_challenge, symObjAddr: 0x552, symBinAddr: 0x11C12, symSize: 0x443 }
+  - { offsetInCU: 0x14F5, offset: 0x8835D, size: 0x8, addend: 0x0, symName: _H_nn, symObjAddr: 0x995, symBinAddr: 0x12055, symSize: 0x139 }
+  - { offsetInCU: 0x169E, offset: 0x88506, size: 0x8, addend: 0x0, symName: _update_hash_n, symObjAddr: 0xB28, symBinAddr: 0x121E8, symSize: 0x6D }
+  - { offsetInCU: 0x180B, offset: 0x88673, size: 0x8, addend: 0x0, symName: _srp_user_m2, symObjAddr: 0xBF0, symBinAddr: 0x122B0, symSize: 0x2A }
+  - { offsetInCU: 0x27, offset: 0x8882E, size: 0x8, addend: 0x0, symName: '+[IXAFactor factorWithKeyname:]', symObjAddr: 0x0, symBinAddr: 0x123CC, symSize: 0x4F }
+  - { offsetInCU: 0x112, offset: 0x88919, size: 0x8, addend: 0x0, symName: '+[IXAFactor factorWithKeyname:]', symObjAddr: 0x0, symBinAddr: 0x123CC, symSize: 0x4F }
+  - { offsetInCU: 0x179, offset: 0x88980, size: 0x8, addend: 0x0, symName: '+[IXAFactor factorWithKeyname:options:]', symObjAddr: 0x4F, symBinAddr: 0x1241B, symSize: 0x5C }
+  - { offsetInCU: 0x1F0, offset: 0x889F7, size: 0x8, addend: 0x0, symName: '+[IXAFactor factorWithKey:]', symObjAddr: 0xAB, symBinAddr: 0x12477, symSize: 0x4F }
+  - { offsetInCU: 0x257, offset: 0x88A5E, size: 0x8, addend: 0x0, symName: '+[IXAFactor factorWithKey:options:]', symObjAddr: 0xFA, symBinAddr: 0x124C6, symSize: 0x5C }
+  - { offsetInCU: 0x2CE, offset: 0x88AD5, size: 0x8, addend: 0x0, symName: '-[IXAFactor initWithKey:options:]', symObjAddr: 0x156, symBinAddr: 0x12522, symSize: 0xED }
+  - { offsetInCU: 0x379, offset: 0x88B80, size: 0x8, addend: 0x0, symName: '+[IXAFactor isSupported]', symObjAddr: 0x243, symBinAddr: 0x1260F, symSize: 0x8 }
+  - { offsetInCU: 0x3AC, offset: 0x88BB3, size: 0x8, addend: 0x0, symName: '-[IXAFactor createKeys]', symObjAddr: 0x24B, symBinAddr: 0x12617, symSize: 0x31 }
+  - { offsetInCU: 0x3EF, offset: 0x88BF6, size: 0x8, addend: 0x0, symName: '-[IXAFactor convert]', symObjAddr: 0x27C, symBinAddr: 0x12648, symSize: 0x49 }
+  - { offsetInCU: 0x43E, offset: 0x88C45, size: 0x8, addend: 0x0, symName: '-[IXAFactor updateKeyAttributes:]', symObjAddr: 0x2C5, symBinAddr: 0x12691, symSize: 0x16 }
+  - { offsetInCU: 0x48F, offset: 0x88C96, size: 0x8, addend: 0x0, symName: '-[IXAFactor isNew]', symObjAddr: 0x2DB, symBinAddr: 0x126A7, symSize: 0x16 }
+  - { offsetInCU: 0x4D2, offset: 0x88CD9, size: 0x8, addend: 0x0, symName: '-[IXAFactor options]', symObjAddr: 0x2F1, symBinAddr: 0x126BD, symSize: 0xA }
+  - { offsetInCU: 0x507, offset: 0x88D0E, size: 0x8, addend: 0x0, symName: '-[IXAFactor encodedPublicKey]', symObjAddr: 0x2FB, symBinAddr: 0x126C7, symSize: 0x16 }
+  - { offsetInCU: 0x54A, offset: 0x88D51, size: 0x8, addend: 0x0, symName: '-[IXAFactor publicKey]', symObjAddr: 0x311, symBinAddr: 0x126DD, symSize: 0x16 }
+  - { offsetInCU: 0x58D, offset: 0x88D94, size: 0x8, addend: 0x0, symName: '-[IXAFactor publicKeyRef]', symObjAddr: 0x327, symBinAddr: 0x126F3, symSize: 0x16 }
+  - { offsetInCU: 0x5D0, offset: 0x88DD7, size: 0x8, addend: 0x0, symName: '-[IXAFactor privateKeyRef]', symObjAddr: 0x33D, symBinAddr: 0x12709, symSize: 0x16 }
+  - { offsetInCU: 0x613, offset: 0x88E1A, size: 0x8, addend: 0x0, symName: '-[IXAFactor authenticateWithChallenge:parameters:error:]', symObjAddr: 0x353, symBinAddr: 0x1271F, symSize: 0x6BA }
+  - { offsetInCU: 0x875, offset: 0x8907C, size: 0x8, addend: 0x0, symName: '-[IXAFactor authenticateWithChallenge:parameters:handler:]', symObjAddr: 0xA0D, symBinAddr: 0x12DD9, symSize: 0x95 }
+  - { offsetInCU: 0x948, offset: 0x8914F, size: 0x8, addend: 0x0, symName: '-[IXAFactor currentTimeMilliseconds]', symObjAddr: 0xAA2, symBinAddr: 0x12E6E, symSize: 0x42 }
+  - { offsetInCU: 0x9C7, offset: 0x891CE, size: 0x8, addend: 0x0, symName: '-[IXAFactor isValidToken:timeout:]', symObjAddr: 0xAE4, symBinAddr: 0x12EB0, symSize: 0x6B }
+  - { offsetInCU: 0xA5E, offset: 0x89265, size: 0x8, addend: 0x0, symName: '-[IXAFactor hasEnrollmentChanged]', symObjAddr: 0xB4F, symBinAddr: 0x12F1B, symSize: 0x177 }
+  - { offsetInCU: 0xB89, offset: 0x89390, size: 0x8, addend: 0x0, symName: '-[IXAFactor optionEnabledAndHasEnrollmentChanged]', symObjAddr: 0xCC6, symBinAddr: 0x13092, symSize: 0x1C }
+  - { offsetInCU: 0xBCB, offset: 0x893D2, size: 0x8, addend: 0x0, symName: '-[IXAFactor signatureFailedWithStatus:]', symObjAddr: 0xCE2, symBinAddr: 0x130AE, symSize: 0xC1 }
+  - { offsetInCU: 0xC30, offset: 0x89437, size: 0x8, addend: 0x0, symName: '-[IXAFactor key]', symObjAddr: 0xDA3, symBinAddr: 0x1316F, symSize: 0x16 }
+  - { offsetInCU: 0xC74, offset: 0x8947B, size: 0x8, addend: 0x0, symName: '-[IXAFactor removeKeys]', symObjAddr: 0xDB9, symBinAddr: 0x13185, symSize: 0x66 }
+  - { offsetInCU: 0xCDC, offset: 0x894E3, size: 0x8, addend: 0x0, symName: '-[IXAFactor remove]', symObjAddr: 0xE1F, symBinAddr: 0x131EB, symSize: 0x66 }
+  - { offsetInCU: 0xD44, offset: 0x8954B, size: 0x8, addend: 0x0, symName: '-[IXAFactor rename:]', symObjAddr: 0xE85, symBinAddr: 0x13251, symSize: 0x16 }
+  - { offsetInCU: 0xD97, offset: 0x8959E, size: 0x8, addend: 0x0, symName: '+[IXAFactor hasKeyWithName:]', symObjAddr: 0xE9B, symBinAddr: 0x13267, symSize: 0x19 }
+  - { offsetInCU: 0xDE6, offset: 0x895ED, size: 0x8, addend: 0x0, symName: '+[IXAFactor hasKey:]', symObjAddr: 0xEB4, symBinAddr: 0x13280, symSize: 0x19 }
+  - { offsetInCU: 0xE35, offset: 0x8963C, size: 0x8, addend: 0x0, symName: '-[IXAFactor hasAccessControl]', symObjAddr: 0xECD, symBinAddr: 0x13299, symSize: 0x16 }
+  - { offsetInCU: 0xE79, offset: 0x89680, size: 0x8, addend: 0x0, symName: '-[IXAFactor isStoredInSecureEnclave]', symObjAddr: 0xEE3, symBinAddr: 0x132AF, symSize: 0x16 }
+  - { offsetInCU: 0xEBD, offset: 0x896C4, size: 0x8, addend: 0x0, symName: '-[IXAFactor isSecureEnclaveSupported]', symObjAddr: 0xEF9, symBinAddr: 0x132C5, symSize: 0x16 }
+  - { offsetInCU: 0xF01, offset: 0x89708, size: 0x8, addend: 0x0, symName: '-[IXAFactor encryptData:]', symObjAddr: 0xF0F, symBinAddr: 0x132DB, symSize: 0x16 }
+  - { offsetInCU: 0xF54, offset: 0x8975B, size: 0x8, addend: 0x0, symName: '-[IXAFactor decryptData:]', symObjAddr: 0xF25, symBinAddr: 0x132F1, symSize: 0x16 }
+  - { offsetInCU: 0xFA7, offset: 0x897AE, size: 0x8, addend: 0x0, symName: '-[IXAFactor .cxx_destruct]', symObjAddr: 0xF3B, symBinAddr: 0x13307, symSize: 0x10 }
+  - { offsetInCU: 0x27, offset: 0x898F6, size: 0x8, addend: 0x0, symName: '+[IXTouchIDFactor factorWithKey:]', symObjAddr: 0x0, symBinAddr: 0x13317, symSize: 0x4F }
+  - { offsetInCU: 0x11C, offset: 0x899EB, size: 0x8, addend: 0x0, symName: '+[IXTouchIDFactor factorWithKey:]', symObjAddr: 0x0, symBinAddr: 0x13317, symSize: 0x4F }
+  - { offsetInCU: 0x183, offset: 0x89A52, size: 0x8, addend: 0x0, symName: '+[IXTouchIDFactor factorWithKey:options:]', symObjAddr: 0x4F, symBinAddr: 0x13366, symSize: 0x5C }
+  - { offsetInCU: 0x1FA, offset: 0x89AC9, size: 0x8, addend: 0x0, symName: '-[IXTouchIDFactor initWithKey:options:]', symObjAddr: 0xAB, symBinAddr: 0x133C2, symSize: 0x5D }
+  - { offsetInCU: 0x25D, offset: 0x89B2C, size: 0x8, addend: 0x0, symName: '-[IXTouchIDFactor createKeys]', symObjAddr: 0x108, symBinAddr: 0x1341F, symSize: 0x49 }
+  - { offsetInCU: 0x2AC, offset: 0x89B7B, size: 0x8, addend: 0x0, symName: '+[IXTouchIDFactor isSupported]', symObjAddr: 0x151, symBinAddr: 0x13468, symSize: 0xEB }
+  - { offsetInCU: 0x3B2, offset: 0x89C81, size: 0x8, addend: 0x0, symName: '+[IXTouchIDFactor canEvaluatePolicy]', symObjAddr: 0x23C, symBinAddr: 0x13553, symSize: 0xE1 }
+  - { offsetInCU: 0x47E, offset: 0x89D4D, size: 0x8, addend: 0x0, symName: '-[IXTouchIDFactor signatureFailedWithStatus:]', symObjAddr: 0x31D, symBinAddr: 0x13634, symSize: 0x12A }
+  - { offsetInCU: 0x4FD, offset: 0x89DCC, size: 0x8, addend: 0x0, symName: '-[IXTouchIDFactor authenticateWithChallenge:parameters:error:]', symObjAddr: 0x447, symBinAddr: 0x1375E, symSize: 0x2B5 }
+  - { offsetInCU: 0x76D, offset: 0x8A03C, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x6FC, symBinAddr: 0x13A13, symSize: 0x16 }
+  - { offsetInCU: 0x792, offset: 0x8A061, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x712, symBinAddr: 0x13A29, symSize: 0xF }
+  - { offsetInCU: 0x7BD, offset: 0x8A08C, size: 0x8, addend: 0x0, symName: '___62-[IXTouchIDFactor authenticateWithChallenge:parameters:error:]_block_invoke', symObjAddr: 0x721, symBinAddr: 0x13A38, symSize: 0x10F }
+  - { offsetInCU: 0x8EF, offset: 0x8A1BE, size: 0x8, addend: 0x0, symName: '___62-[IXTouchIDFactor authenticateWithChallenge:parameters:error:]_block_invoke_2', symObjAddr: 0x830, symBinAddr: 0x13B47, symSize: 0xD2 }
+  - { offsetInCU: 0x9E2, offset: 0x8A2B1, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64r72r, symObjAddr: 0x902, symBinAddr: 0x13C19, symSize: 0x64 }
+  - { offsetInCU: 0xA3B, offset: 0x8A30A, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64r72r, symObjAddr: 0x966, symBinAddr: 0x13C7D, symSize: 0x4F }
+  - { offsetInCU: 0xA8A, offset: 0x8A359, size: 0x8, addend: 0x0, symName: '-[IXTouchIDFactor performTouchIDAuthenticationWithReason:completion:]', symObjAddr: 0x9B5, symBinAddr: 0x13CCC, symSize: 0x143 }
+  - { offsetInCU: 0xBA1, offset: 0x8A470, size: 0x8, addend: 0x0, symName: '___69-[IXTouchIDFactor performTouchIDAuthenticationWithReason:completion:]_block_invoke', symObjAddr: 0xAF8, symBinAddr: 0x13E0F, symSize: 0xF }
+  - { offsetInCU: 0xC10, offset: 0x8A4DF, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0xB07, symBinAddr: 0x13E1E, symSize: 0x17 }
+  - { offsetInCU: 0xC39, offset: 0x8A508, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0xB1E, symBinAddr: 0x13E35, symSize: 0xF }
+  - { offsetInCU: 0xC64, offset: 0x8A533, size: 0x8, addend: 0x0, symName: '-[IXTouchIDFactor unlockAndWaitWithMessage:]', symObjAddr: 0xB2D, symBinAddr: 0x13E44, symSize: 0x1C2 }
+  - { offsetInCU: 0xDE5, offset: 0x8A6B4, size: 0x8, addend: 0x0, symName: '___44-[IXTouchIDFactor unlockAndWaitWithMessage:]_block_invoke', symObjAddr: 0xCEF, symBinAddr: 0x14006, symSize: 0x88 }
+  - { offsetInCU: 0xE74, offset: 0x8A743, size: 0x8, addend: 0x0, symName: '___44-[IXTouchIDFactor unlockAndWaitWithMessage:]_block_invoke_2', symObjAddr: 0xD77, symBinAddr: 0x1408E, symSize: 0x43 }
+  - { offsetInCU: 0xF01, offset: 0x8A7D0, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40r, symObjAddr: 0xDBA, symBinAddr: 0x140D1, symSize: 0x30 }
+  - { offsetInCU: 0xF36, offset: 0x8A805, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40r, symObjAddr: 0xDEA, symBinAddr: 0x14101, symSize: 0x27 }
+  - { offsetInCU: 0xF61, offset: 0x8A830, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56r, symObjAddr: 0xE11, symBinAddr: 0x14128, symSize: 0x4B }
+  - { offsetInCU: 0xFAE, offset: 0x8A87D, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56r, symObjAddr: 0xE5C, symBinAddr: 0x14173, symSize: 0x3A }
+  - { offsetInCU: 0xFF1, offset: 0x8A8C0, size: 0x8, addend: 0x0, symName: '+[IXTouchIDFactor unlockWithMessage:completion:]', symObjAddr: 0xE96, symBinAddr: 0x141AD, symSize: 0x131 }
+  - { offsetInCU: 0x1108, offset: 0x8A9D7, size: 0x8, addend: 0x0, symName: '___48+[IXTouchIDFactor unlockWithMessage:completion:]_block_invoke', symObjAddr: 0xFC7, symBinAddr: 0x142DE, symSize: 0xAA }
+  - { offsetInCU: 0x11D1, offset: 0x8AAA0, size: 0x8, addend: 0x0, symName: '___48+[IXTouchIDFactor unlockWithMessage:completion:]_block_invoke_2', symObjAddr: 0x1071, symBinAddr: 0x14388, symSize: 0x1A }
+...
