@@ -12,7 +12,7 @@ let package = Package(
         .package(
             name: "DaonCryptoSDK",
             path: "DaonCryptoSDK-1.0.6.xcframework"
-        ),
+        )
         // .binaryTarget(
         //     name: "DaonCryptoSDK",
         //     url: "https://nexus.identityx-build.com/repository/sdk-packages/crypto/DaonCryptoSDK-1.0.6.xcframework.zip",
@@ -22,25 +22,3 @@ let package = Package(
         // )
         ]
 )
-//let package = Package(
-//    name: "DaonCryptoPackage",
-//    platforms: [
-//        .macOS(.v10_14), .iOS(.v13), .tvOS(.v13)
-//    ],
-//    products: [
-//        // Products define the executables and libraries a package produces, making them visible to other packages.
-//        .library(
-//            name: "DaonCryptoPackage",
-//            targets: ["DaonCryptoPackage", "DaonCryptoSDK"]),
-//    ],
-//    targets: [
-//        // Targets are the basic building blocks of a package, defining a module or a test suite.
-//        // Targets can depend on other targets in this package and products from dependencies.
-//        .target(
-//            name: "DaonCryptoPackage"
-//        ),
-//        .binaryTarget(
-//            name: "DaonCryptoSDK",
-//            path: "Frameworks/DaonCryptoSDK.xcframework")
-//    ]
-//)
